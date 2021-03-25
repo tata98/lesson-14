@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  background-color: #086297;
+  height: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body main {
+  box-shadow: 1px 4px 20px 3px #0000008a;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  overflow: hidden;
+}
+@media screen and (max-width: 900px) {
+  body main {
+    width: 90%;
+  }
+}
+body main nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main nav .logo {
+  padding: 20px 0;
+}
+body main nav .logo img {
+  height: 30px;
+}
+@media screen and (max-width: 950px) {
+  body main nav .logo {
+    margin: auto;
+  }
+}
+body main nav .menu {
+  display: flex;
+  margin: 0;
+}
+@media screen and (max-width: 950px) {
+  body main nav .menu {
+    display: none;
+  }
+}
+body main nav .menu li {
+  list-style-type: none;
+  padding: 10px;
+}
+body main nav .menu a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+body main nav .menu .home {
+  color: #fbac2d;
+  text-decoration-line: underline;
+  text-underline-offset: 5px;
+}
+body main .container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+@media screen and (max-width: 1124px) {
+  body main .container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+}
+body main .container .text {
+  width: 30%;
+  color: white;
+  text-transform: capitalize;
+  padding-bottom: 80px;
+}
+@media screen and (max-width: 1124px) {
+  body main .container .text {
+    width: 90%;
+    text-align: center;
+    padding-bottom: 0;
+  }
+}
+body main .container .text a {
+  padding: 10px 15px;
+  background-color: #2c2c2c;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+@media screen and (max-width: 1124px) {
+  body main .container .text a {
+    background-color: #fbac2d;
+    color: #086297;
+  }
+}
+body main .container .text h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+@media screen and (max-width: 1124px) {
+  body main .container .text h1 {
+    font-size: 30px;
+  }
+}
+body main .container .text h1 .selling {
+  font-size: 60px;
+}
+@media screen and (max-width: 1124px) {
+  body main .container .text h1 .selling {
+    font-size: 30px;
+  }
+}
+body main .container .image-sale {
+  position: relative;
+}
+body main .container .image-sale .chair {
+  width: 400px;
+}
+@media screen and (max-width: 1124px) {
+  body main .container .image-sale .chair {
+    width: 200px;
+  }
+}
+body main .container .image-sale .square {
+  top: 50%;
+  left: -60px;
+  width: 120px;
+  position: absolute;
+  z-index: -1;
+}
+@media screen and (max-width: 1124px) {
+  body main .container .image-sale .square {
+    display: none;
+  }
+}
+body main .container .image-sale .square2 {
+  top: -10%;
+  right: -10%;
+  width: 120px;
+  position: absolute;
+  z-index: -1;
+}
+@media screen and (max-width: 1124px) {
+  body main .container .image-sale .square2 {
+    display: none;
+  }
+}
+body main .container .image-sale .sale-label {
+  top: 30%;
+  right: -30px;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  background-color: #2c2c2c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 1124px) {
+  body main .container .image-sale .sale-label {
+    background-color: #fbac2d;
+    width: 80px;
+    height: 80px;
+  }
+}
+body main .container .image-sale .sale-label .sale-label-border {
+  width: 120px;
+  height: 120px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+  color: white;
+  border: white 2px dashed;
+  border-radius: 50%;
+}
+@media screen and (max-width: 1124px) {
+  body main .container .image-sale .sale-label .sale-label-border {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+  }
+}
+body main .container .image-sale .sale-label .sale-label-border .limited {
+  font-weight: bold;
+  font-size: 8px;
+  margin: 0;
+}
+@media screen and (max-width: 1124px) {
+  body main .container .image-sale .sale-label .sale-label-border .limited {
+    font-size: 5px;
+  }
+}
+body main .container .image-sale .sale-label .sale-label-border .off {
+  margin: 0;
+}
+@media screen and (max-width: 1124px) {
+  body main .container .image-sale .sale-label .sale-label-border {
+    background-color: #fbac2d;
+    color: #086297;
+    border-color: #086297;
+  }
+}
+body main .last-element {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background: #fbac2d;
+  bottom: 0;
+  left: 45%;
+  transform: skew(-30deg, 0deg);
+  z-index: -2;
+}
+@media screen and (max-width: 1124px) {
+  body main .last-element {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
